@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px;
+    background-color: mediumaquamarine;
+    color: #fff;
+    
+}
+
+header h1{
+    font-size: 32px;
+    font-family: 'Fira Code', monospace;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+header .container,
+section .container,
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body{
+    font-family: 'Fira Code', monospace;
+}
+
+section .container{
+    align-items: center;
+}
+
+section{
+    padding: 36px;
+    background-color: #000;
+    color: #fff;
+    text-align: center ;
+    font-size: 18px;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.eu{
+    margin-right: 32px;
+    border-radius: 24%;
+    box-shadow: 8px 8px mediumaquamarine;
+}
+.linguagens{
+    margin-top: 24px;
+}
+
+.linguagens li{
+    display: inline;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.linguagens li a{
+    text-decoration: none;
+}
+
+
+.linguagens img{
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.linguagens img:hover{
+    box-shadow: 3px 5px mediumaquamarine;
+}
+
+#experiencia .container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.coding {
+    box-shadow: 10px 12px 3px mediumaquamarine;
+}
+
+
+.social-list img{
+    height: 42px;
+}
+
+.social-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-list li a{
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block  ;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 280px;
+    margin-bottom: 8px;
+    padding: 8px;   
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #33ffba;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: aquamarine;
+}
+
+input:focus, textarea:focus{
+    outline-color: aquamarine;
+    outline-width: 10px;
+}
